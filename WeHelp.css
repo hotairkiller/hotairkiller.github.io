@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background:  linear-gradient(135deg, #667eea 0%, #764ba2 100%)
+}
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 2.5em;
+    background-color: rgb(29, 168, 193);
+    
+}
+#text_title{
+    font-size: 2.0em;
+}
+
+
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+.card{
+    background-color: aliceblue;
+    color: rgb(8, 120, 219);
+    font-size: 1.3em;
+    font-weight: 350;
+    border-radius: 0;
+    
+}
+
+
+.card_text{
+    background: white;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 0 0 12px 12px;
+    text-align: justify;
+    font-size: 1em;
+    font-weight: 500;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card_text:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
